@@ -1,5 +1,5 @@
 # HTML-and-CSS-Projects
-A collection of HTML, CSS, and other coding projects completed throughout my course.
+
 HTML and CSS Projects
 Welcome to my coding projects repository!
 
