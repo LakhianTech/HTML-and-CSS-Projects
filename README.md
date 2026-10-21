@@ -1,6 +1,5 @@
 # HTML-and-CSS-Projects
 
-HTML and CSS Projects
 Welcome to my coding projects repository!
 
 This repository contains the coding assignments, exercises, and projects I complete throughout my course. It will include projects using HTML, CSS, and other web development technologies as I continue to build my skills.
