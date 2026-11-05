@@ -1,47 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Website</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navigation -->
+    <!-- NAVBAR -->
     <nav>
-        <a href="#home">Home</a>
-        <a href="#cars">Car Gallery</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#cars">CAR GALLERY</a></li>
+        <li><a href="#video">VIDEOS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+</nav>
 
-    <!-- Home Section -->
-    <section id="home">
-        <h1>WELCOME TO MY CAR WEBSITE</h1>
-          <p>
-        Welcome to my car website! Explore the exciting world of
-        automobiles and discover a collection of beautiful luxury
-        cars, powerful sports cars, and modern vehicles. Learn about
-        different car brands, enjoy amazing car pictures, and discover
-        the latest styles and designs. Whether you love speed, comfort,
-        or elegant design, there is something for every car enthusiast.</p>
+    <!-- HEADER / HOME SECTION -->
+    <header id="home">
+        <div>
+            <h1>Welcome to My Car Website!</h1>
+            <p>
+                Welcome to my car website! Explore the exciting world of
+                automobiles and discover beautiful luxury cars, powerful
+                sports cars, and modern vehicles. Learn about different
+                car brands, enjoy amazing car pictures, and discover
+                different car styles and designs. Whether you love speed,
+                comfort, or elegant design, there is something for every
+                car enthusiast.
+            </p>
+        </div>
+    </header>
+
+    <!-- CAR GALLERY -->
+    <section id="cars">
+        <div>
+            <h2>Choose a Car!</h2>
+
+            <div>
+
+                <!-- PORSCHE IMAGE -->
+                <div>
+                    <h3>Porsche</h3>
+                    <img src="Images/porche.jpg" alt="Picture of Porsche">
+                </div>
+
+                <!-- BMW IMAGE -->
+                <div>
+                    <h3>BMW</h3>
+                    <img src="Images/bmw.jpg" alt="Picture of BMW">
+                </div>
+
+                <!-- MERCEDES IMAGE -->
+                <div>
+                    <h3>Mercedes-Benz</h3>
+                    <img src="Images/benz.jpg" alt="Picture of Mercedes-Benz">
+                </div>
+
+            </div>
+        </div>
     </section>
 
-    <!-- Car Gallery -->
-    <section id="cars">
-        <h2>CAR GALLERY</h2>
-
-        <div class="gallery">
-
-            <img src="Images/porche.jpg"
-                 alt="Porsche">
-
-            <img src="Images/bmw.jpg"
-                 alt="BMW">
-
-            <img src="Images/benz.jpg"
-                 alt="Mercedes">
-
+    <!-- VIDEO SECTION -->
+    <section id="video">
+        <div>
+            <h2>Car Videos</h2>
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/ysz5S6PUM-U"
+                title="Car Video">
+            </iframe>
         </div>
     </section>
 
